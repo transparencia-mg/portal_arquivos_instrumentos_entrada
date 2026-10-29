@@ -1,0 +1,30 @@
+name: portal_arquivos_instrumentos_entrada
+owner_org: secretaria-geral-do-estado-de-minas-gerais
+profile: data-package
+resources:
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: arquivos_instrumentos_entrada
+    path: data/arquivos_instrumentos_entrada.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: codigo_siafi
+          type: integer
+        - name: codigo_sigcon
+          type: string
+        - name: codigo_plano_de_trabalho
+          type: string
+        - name: instrumento
+          type: string
+        - name: tipo_de_documento
+          type: string
+        - name: informacao
+          type: string
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+title: Portal_arquivos_instrumentos_entrada
