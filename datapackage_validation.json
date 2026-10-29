@@ -1,0 +1,89 @@
+{
+  "version": "4.16.6",
+  "time": 0.036,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "arquivos_instrumentos_entrada",
+        "path": "data/arquivos_instrumentos_entrada.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "codigo_siafi",
+              "type": "integer"
+            },
+            {
+              "name": "codigo_sigcon",
+              "type": "string"
+            },
+            {
+              "name": "codigo_plano_de_trabalho",
+              "type": "string"
+            },
+            {
+              "name": "instrumento",
+              "type": "string"
+            },
+            {
+              "name": "tipo_de_documento",
+              "type": "string"
+            },
+            {
+              "name": "informacao",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "dd0315b65130df965e500bf8a4e3eaf6",
+          "bytes": 389973,
+          "fields": 6,
+          "rows": 2366
+        }
+      },
+      "time": 0.03,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 0,
+    "tasks": 1
+  },
+  "valid": true
+}
