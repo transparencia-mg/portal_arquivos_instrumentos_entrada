@@ -1,4 +1,4 @@
-Esta pasta reúne os documentos relacionados aos Convênios de Entrada e Instrumentos Congêneres, servindo como repositório para armazenamento, organização e consulta dos arquivos correspondentes.
+Esta pasta reúne os documentos relacionados aos Convênios de Entrada e Instrumentos Congêneres, servindo como repositório para armazenamento, organização e consulta dos arquivos correspondentes
 
 ## Como participar
 
