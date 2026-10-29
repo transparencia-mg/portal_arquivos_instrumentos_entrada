@@ -18,33 +18,39 @@
         "fields": [
           {
             "name": "codigo_siafi",
-            "type": "integer"
+            "type": "integer",
+            "description": "Número de identificação do instrumento no Sistema Integrado de Administração Financeira (SIAFI)."
           },
           {
             "name": "codigo_sigcon",
-            "type": "string"
+            "type": "string",
+            "description": "Número de identificação do instrumento no Sistema de Gestão de Convênios, Portarias e Instrumentos Congêneres – Entrada (SIGCON-Entrada)."
           },
           {
             "name": "codigo_plano_de_trabalho",
-            "type": "string"
+            "type": "string",
+            "description": "Número de identificação do plano de trabalho do instrumento no SIGCON-Entrada."
           },
           {
             "name": "instrumento",
-            "type": "string"
+            "type": "string",
+            "description": "Tipo de instrumento de entrada de recursos, como convênio, acordo, ajuste, portaria, transferência especial ou outro instrumento congênere"
           },
           {
             "name": "tipo_de_documento",
-            "type": "string"
+            "type": "string",
+            "description": "tipo de arquivo como termmo de convênio, plano de trabalaho, termo aditivo, plano de ação e outros"
           },
           {
             "name": "informacao",
-            "type": "string"
+            "type": "string",
+            "description": "Link para acesso ao documento."
           }
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Arquivos dos Convênios de Entrada e Instrumentos Congêneres"
     }
   ],
-  "title": "Portal_arquivos_instrumentos_entrada"
+  "title": "Arquivos dos Convênios de Entrada e Instrumentos Congêneres"
 }
